@@ -1,0 +1,49 @@
+/* selector {
+    property : value
+} */
+
+img {
+    width: 20%;
+}
+
+div {
+    border: solid 1px green;
+}
+
+
+#div_2 {
+    border: solid 1px blue;
+    margin-left: auto;
+}
+
+.div_3{
+    border: solid 1px red;
+
+}
+p.div_3{
+    font-size: 100px;
+}
+
+/* #div_2 p {
+    color: blue;
+} */
+
+/* child  */
+#div_2  p {
+    color: blue;
+    text-align: center;
+}
+
+#div_2 p:hover {
+    color: red;
+}
+
+#content {
+    display: inline-block;
+    width: 10%;
+    text-align: center;
+    margin: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
